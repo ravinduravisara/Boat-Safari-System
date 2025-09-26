@@ -1,0 +1,144 @@
+
+footer{
+    /* position: relative;
+    bottom: 0;
+    left: 0; */
+    width: 100%;
+    background-color: #484c4e;
+    color: #fff;  
+    height: fit-content;
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    
+}
+/* .footer_container{
+    background-color: aquamarine;
+} */
+
+.footer_container > hr{
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    width: 1180px;
+    background-color: #000000;
+    position: relative;
+    top: 15px;
+
+}
+hr{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 0;
+    border: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #000000;
+    
+}
+
+.wrap{
+    width: 100%;
+    display: flex;
+}
+.wrap_heading{
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    color: black;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+footer > .footer_container >.wrap >.quick_wrap{
+    
+    margin-right: auto;
+    
+}
+
+
+footer > .footer_container >.wrap > .contact_wrap{
+    margin-right: auto;
+    
+}
+
+footer > .footer_container >.wrap > .follow_wrap{
+    margin-right: auto;
+    
+}
+
+footer > .footer_container >.wrap > .logo_wrap{
+    margin-right: 70px;
+    margin-left: 125px;
+}
+footer > .footer_container >.wrap > .logo_wrap > img{
+    height: 90px;
+    width: 240px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+footer > .footer_container >.wrap > .logo_wrap > p{
+    margin-top: 0;
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 25px;
+
+}
+/* footer > .footer_container > .follow_wrap > .footer_links > .fb{
+    height: 5px;
+    width: 5px;
+    list-style: url("/images/facebook.png");
+    list-style-position: outside;
+} */
+footer > p{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.footer_links{
+    list-style: none;
+    padding-left: 28px;
+    margin-top: 10px;
+}
+
+
+.footer_links > li > a{
+    margin-top: 9px;
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+    
+}
+.footer_links> li > a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+footer > .footer_container >.wrap > .logo_wrap > #email{
+    width: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 20px;
+    border: solid 1px #000000;
+    border-radius: 5px;
+}
+
+footer > .footer_container >.wrap > .logo_wrap > #sbtBtn{
+    width: auto;
+    height: 25px;
+    border: solid 1px #000000;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    margin-bottom: 5px;
+    transition: 0.5s;
+}
+
+footer > .footer_container >.wrap > .logo_wrap > #sbtBtn:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+

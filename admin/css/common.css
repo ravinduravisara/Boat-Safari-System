@@ -1,0 +1,159 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    /* overflow: hidden;This is hid the scroll button of the full page */
+    
+
+}
+
+/* #logout{
+   created this one to put the log out button at the end of the right panel 
+
+
+} */
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: #eeebeb;
+    
+    
+}
+
+.left_panel{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 15%;
+    background: #1074d3;
+   
+}
+
+
+.left_panel > .logo{
+    padding: 0px;
+    display: flex;
+    width: relative;
+    height: relative;
+}
+
+.left_panel > .logo > img{
+    height: 50px;
+    width: 90px;
+    margin: 0;
+    margin: 0px 0px 0px 5px;
+}
+
+.left_panel > ul{
+    width: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    list-style-type: none;
+}
+.left_panel > ul > li{
+    margin-bottom: 10px;
+    height: 60px;
+    padding: 0px 13px 0px 5px;
+    transition: 0.5s;
+}
+
+.left_panel > ul > li > a{
+    display: flex;
+    justify-content: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+    
+} 
+
+.left_panel > ul > li > a >i{
+    display: flex;
+    font-size: 25px;
+    color: white;
+    margin-right: 8px;
+    transition: 0.5s;
+}
+
+.left_panel > ul > li:hover{
+    background: #0e5ba3;
+}
+
+
+.right_panel{
+
+    width: 86%;
+}
+
+.right_panel > .upper_panel{
+    padding: 12px;
+    padding-left: 0;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: relative;
+    justify-content: space-between;
+
+    
+}
+
+.right_panel > .upper_panel > .upper_panel_left{
+   
+    padding: 3px;
+    margin: 3px;
+    margin-left: 40px;
+   
+    
+}
+
+.right_panel > .upper_panel > .upper_panel_left > h6{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+
+.right_panel > .upper_panel > .upper_panel_right{
+    margin: 2px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.right_panel > .upper_panel > .upper_panel_right > .user > a >img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 25%;
+    margin-right: 10px;
+    transition:  0.5s ease;
+}
+.right_panel > .upper_panel > .upper_panel_right > .user > a >img:hover{
+    opacity: 0.5;
+}
+.right_panel > .upper_panel > .upper_panel_right > .user_name > p > a{
+    text-decoration: none;
+    color: #000000;
+    transition: 0.5s;
+    /* color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+     */
+}
+.right_panel > .upper_panel > .upper_panel_right > .user_name > p > a:hover{
+    color: #0e5ba3;
+}
+
+/* .middle_panel{
+    background-color: aqua;
+} */
+

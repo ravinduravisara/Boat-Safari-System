@@ -1,0 +1,316 @@
+html,body{
+    padding: 0;
+    margin: 0px;
+    height: 100%;
+}
+
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 750px;
+  background-image: linear-gradient( rgba(40, 40, 49, 0.5) 0%, rgba(12, 12, 14, 0.414) 10%);
+  background: rgb(13,12,12);
+  background: linear-gradient(0deg, rgba(13,12,12,0.7567401960784313) 10%, rgba(252,249,249,0) 100%);
+  
+
+} 
+
+
+.intro > video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  opacity: 0.8;
+  z-index: -1;/*this will send the video to the back*/
+}
+
+.intro h1 {
+  position: absolute;
+  text-align: left; /* Keep this */
+  font-family: sans-serif;
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  top: 600px;
+  left: 20px; /* Adjust this value to move the text to the left */
+
+  
+}
+
+  
+
+.intro button {
+  position: absolute;
+  background-color: #5edaf0;
+  color: #000;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+}
+.intro button:hover {
+  background-color: rgb(255, 0, 230);
+}
+.intro > button >  a{
+  text-decoration: none;
+  color: black;
+} 
+/* .upcoming-tours{
+  background-color: #5edaf0;
+  
+} */
+
+
+.intro .playPause_btn{
+  position: absolute;
+  top: 700px;
+  left: 10px;
+  border-radius: 10px;
+  background-color: rgba(12, 12, 14, 0.414);
+  width: 30px;
+  height: 30px;
+  transition: 0.5s;
+}
+
+.intro .playPause_btn:hover{
+  background-color: #8d8585;
+  cursor: pointer;
+}
+
+.intro .playPause_btn img{
+  height: 30px;
+  width: 30px;
+  
+}
+.services{
+
+  background-image: url('../images/userview/t1.jpg');
+  color: rgba(0, 0, 0, 0.612); /* Black background with opacity */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  
+  height: fit-content;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.services > .imgBox{
+  margin-right: 8%;
+  
+  width: 600px;
+  padding: 10px;
+  text-align: center;
+  height: fit-content;
+  margin-top: 3%;
+  
+}
+.img1{
+  width: 250px;
+  height: 200px;
+}
+
+.img2{
+  /* display: relative; */
+  right: 10;
+  width: 300px;
+  height: 250px;
+  position: relative;
+  left: 120px;
+  bottom: 80px;
+}
+
+.img3{
+  width: 310px;
+  height: 240px;
+  position: relative;
+  left: 50px;
+  top: 100px;
+  
+}
+
+.img4{
+  width: 270px;
+  height: 180px;
+  position: relative;
+  left: 110px;
+  bottom: 50px;
+}
+.services > .description{
+  padding: 10px;
+  background-color: azure;
+  width: 550px;
+  margin-left: 8%;
+  height: fit-content;
+  
+}
+
+.vl{
+  border-left: 6px solid rgb(255, 255, 255);
+  height: 300px;
+  margin-top: 8%;
+  margin-left: 15px;
+  margin-right: 15px;
+  
+}
+
+.services > .description > .topic > p{
+  width: 500px;
+  
+}
+.services > .description > .topic{
+  background-color: rgb(227, 227, 241);
+  padding: 5px;
+  margin-top: 5px;
+  
+}
+
+/* Boat Section Styling */
+.boat {
+  padding: 50px 0;
+  background-image: url('../images/boat5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  text-align: center;
+  
+}
+
+.boat h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+/* Container for Boat Cards */
+.boatContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* Individual Boat Cards */
+.boatBox {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.boatBox:hover {
+  transform: scale(1.05);
+}
+
+/* Boat Image */
+.boatImg img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Boat Description */
+.boatDesc h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.boatDesc p {
+  font-size: 14px;
+  color: #666;
+}
+
+
+.feedContainer{
+  background-image: url('../images/login back1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  overflow: auto;
+  justify-content: space-between;
+  
+  
+}
+
+.feedbox{
+  background-color: #dadada;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+  border-radius: 20px;
+  max-width: fit-content;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  
+}
+
+.feedbox:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.feedbox > .pImg{
+  width: 100px;
+  height: 100px;
+  background-color: #b63a17;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.feedbox > .pImg > img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.feedbox >.review> p{
+  white-space: pre-wrap;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  color: #000000;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 1.2rem;
+}
+.star{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+.star > img{
+  height: 20px;
+  width: 20px;
+}

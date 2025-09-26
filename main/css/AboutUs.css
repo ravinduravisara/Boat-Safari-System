@@ -1,0 +1,80 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  
+} 
+
+
+.about-us{
+  width: 100%;
+  padding: 90px 0;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyQ2dQAWt-LkaSnh0KlbRmnp--dHnMcHgXxA&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+.pic{
+  height: auto;
+  width:100%;
+  object-fit: cover;
+  padding-right: 40px;
+  border-radius: 15%;
+}
+
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  width: 540px;
+}
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #4070f4;
+
+}
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+ font-family:pacifica;
+  margin-bottom: 20px;
+  color: rgb(14, 83, 174);
+}
+.text p{
+
+  font-style: italic;
+  color: darkslateblue;
+}
+span{
+  color: #4070f4;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.data{
+  margin-top: 30px;
+}
+.hire{
+  font-size: 18px;
+  background: #4070f4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  background: #f9f0f0;
+  border: 1px solid #4070f4;
+}

@@ -1,0 +1,175 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+    background-image: url(../images/contactus.jpg);
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: 100%;
+	
+  } 
+
+.container {
+	position: relative;
+    height: 100%;
+	
+	
+}
+
+.container > .wrap{
+	position: relative;
+    top: 20%;
+    height: 300px;
+	
+	
+
+	
+}
+
+.heading{
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.Container_2
+{
+    padding: 10px;
+    width:100%;
+    margin:10px;
+    color: white;
+    
+
+}
+
+/* body
+{
+    background-image: url(../Images/Boat.jpg);
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */
+
+#form
+{
+    border: 2px solid;
+    width:42%;
+    border-radius: 8px;
+    padding: 20px;
+    float:none;
+    background-color: rgba(0, 0, 0, 0.5); 
+    
+    
+}
+.heading
+{
+    text-align: center;
+}
+
+#FullName
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#fname
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#message
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#Email
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+#Message
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.button
+{
+    background-color: #4CAF50;
+    width:100%;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+
+nav > .container_img{
+    
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1
+{
+    text-align: center;
+
+    
+}
+
+p
+{
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+	
+	 
+			

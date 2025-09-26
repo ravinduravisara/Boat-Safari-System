@@ -1,0 +1,159 @@
+.container{
+    /* background-color: blueviolet; */
+    position: relative;
+    height: 100vh;
+    background-color: #3f51b5;
+    /* background-image: url('/images/loging\ back2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    /* background-image: linear-gradient( rgba(133, 133, 165, 0.47) 0%, rgba(12, 12, 14, 0.414) 10%, ); */
+    
+}
+.container > img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* .container::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(51, 48, 48, 0.5);
+    
+} */
+.wrap{
+    position: relative;
+    top: 20%;
+    /* background-color: blanchedalmond; */
+    height: 300px;
+    
+}
+.box_wrap{    
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 600px;
+    height: 350px;
+    display: flex;
+    border-radius: 15px;
+    position: absolute;
+    left: 28%;
+    top: 10%;
+    justify-content: center;
+    padding-top: 50px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    display: none;
+ 
+}
+.box_wrap.active{
+    display: block;
+}
+
+.box_wrap  .admin_wrap{
+
+    background-color: rgba(133, 129, 129, 0.5);
+    padding: 10px;
+    margin: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    height: 250px;
+    text-decoration: none;
+    color: black;
+    display: none;
+    
+    
+}
+.admin_wrap.active{
+    display: block;
+}
+
+
+
+.box_wrap > .admin_wrap  >img{
+    width: 150px;
+}
+
+
+.box_wrap  .user_wrap{
+
+    background-color: rgba(133, 129, 129, 0.5);
+    padding: 10px;
+    margin: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: none;
+    
+
+}
+.user_wrap.active{
+    display: block;
+}
+
+.box_wrap .user_wrap img{
+    width: 150px;
+}
+
+.wrap > .btn_wrap{
+    z-index: 1;
+    padding: 50px;
+    width: 250px;
+    height: 150px;
+    position: relative;
+    left: 38%;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+
+
+}.wrap > .btn_wrap.active{
+    display: none;
+}
+.wrap > .btn_wrap > button{
+    background: linear-gradient(90deg, #3f51b5, transparent) #2196f3;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    transition: 0.5s;
+}
+
+.wrap > .btn_wrap > button:hover{
+    background-color: #e91e63;
+    color: #fff;
+    cursor: pointer;
+}
+
+.box_wrap> img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 95%;
+    top: 2%;
+    transition: 0.5s;
+    
+}
+.box_wrap > img:hover{
+    cursor: pointer;
+    transform: rotate(180deg);
+}

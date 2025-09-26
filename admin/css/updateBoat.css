@@ -1,0 +1,169 @@
+.upper_panel{
+  margin-bottom: 50px;
+}
+
+.middle_panel{
+  display: flex;
+  height: 100vh;
+}
+
+.middle_panel > .left_box{
+  width: 75%;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.middle_panel > .left_box > #left-top{
+  font-weight: 600;
+  font-size: 23px;
+  
+}
+
+.profile{
+  display: flex;
+  height: 400px;
+  /*background-color: aqua; */
+}
+
+.vl {
+  border-left: 3px solid #dddddd;
+  height: 300px;
+  
+  left: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.middle_panel > .left_box > .profile > .pImg{
+  /*background-color: #00ff62; */
+  width: 220px;
+  height: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  /*border-radius: 10%;*/
+}
+
+.middle_panel > .left_box > .profile >  .pImg > img{
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  /*border-radius: 50%;*/
+  border: 5px solid #dddddd;
+  /*margin: 4%;*/
+}
+.middle_panel > .left_box > .profile > .details{
+  margin-left: auto;
+  margin-right: auto;
+  /*margin-top: %;*/
+  width: 360px;
+  height: 350px;
+  /* background-color: #c02828; */
+}
+
+/*display details*/
+.middle_panel > .left_box p{
+  margin: 5px;
+  font-size: 19px;
+  font-weight: 500;
+  /*background-color: aqua;*/
+}
+
+.detBox{
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  border: 2px solid #dddddd; 
+}
+
+.middle_panel > .right_box{
+  width: 45%;
+  height: 500px;
+  background-color: rgb(148, 141, 141);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-right: 50px;
+}
+
+/*update boat heading*/
+.right_box > p{
+  margin-left: 20px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 23px;
+  /*background-color: #2c84f7;*/
+}
+
+input{
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  /*background-color: rgb(150, 97, 27);*/ 
+}
+
+/*choose file to upload*/
+input > #b_image{
+  width: 190px;
+  height: 20px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+  /*background-color: rgb(134, 137, 167);*/
+}
+
+/*update button*/
+#sbt{
+  width: 150px;
+  height: 30px;
+  margin-left: 20%;
+  transition: 0.5s;
+  background-color: rgb(47, 255, 57);
+  margin-top: 10px;
+}
+
+#sbt:hover{
+  background-color: #00ff62;
+  color: white;
+  cursor: pointer;
+}
+
+.topwrap{
+  display: flex;
+  justify-content: space-around;
+}
+#blic, #bname{
+  width: 122px;
+  height: 20px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.otherwrap{
+  margin-left: 11%;
+}
+
+
+
+
+
+
+
+

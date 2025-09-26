@@ -1,0 +1,96 @@
+/* Style the form */
+body{
+    background: linear-gradient(135deg, #3ce44a, #9b59b6);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form headings */
+h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Label styles */
+label {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 6px;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="int"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button styles */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Button hover effect */
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Styling for error or success messages */
+.alert {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.alert-success {
+    background-color: #28a745;
+}
+
+.alert-error {
+    background-color: #dc3545;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+
+    button[type="submit"] {
+        padding: 10px;
+    }
+}

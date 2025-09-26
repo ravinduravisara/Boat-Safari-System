@@ -1,0 +1,212 @@
+
+
+/* .middle_panel{
+    background-color: aqua;
+} */
+.greeting{
+    /* background-color: #1074d3; */
+    margin-bottom: 0;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: auto;
+    width:500px
+}
+.greeting > p{
+    /* background-color: aliceblue; */
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    margin-right: auto;
+    width: fit-content;
+}
+.greeting > .head{
+    color: #000000;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.middle_panel > .upper_box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    /* background-color:#1074d3 ; */
+}
+
+.middle_panel > .upper_box > .box{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    text-align: left;
+    width: 150px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.middle_panel > .upper_box > .box:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(12, 12, 12, 0.2);
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+         
+}
+
+.middle_panel > .upper_box > .box > h6{
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 1em;
+    font-weight: 600;
+    color: #000000;
+}
+
+.middle_panel > .upper_box > .box > .val {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #000000;
+}
+
+.middle_panel > .upper_box > .box > .date{
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    font-size: 0.7em;
+    font-weight: 500;
+    color: #000000;
+}
+
+
+.middle_panel > .lower_boxes{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px 50px 50px 50px;
+    height: 500px;
+    
+    
+}
+
+.middle_panel > .lower_boxes > .left_box{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    width: 60%;
+    height: 450px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.middle_panel > .lower_boxes > .left_box > .grid{
+    
+    overflow: auto;
+    height: 400px;
+}
+
+.middle_panel > .lower_boxes > .right_box{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    
+
+}
+
+
+ .middle_panel > .lower_boxes > .left_box > h6 , .middle_panel > .lower_boxes > .right_box > h6{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+} 
+
+
+
+.middle_panel > .lower_boxes > .right_box > .feedBox{
+   
+    width: relative;
+    height: 400px;
+    overflow: auto;
+}
+
+.middle_panel > .lower_boxes > .right_box > .feedBox >.feed{
+    background-color: #1074d3;
+    width: 260px;
+    
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+    transition: 0.4s;
+}
+.middle_panel > .lower_boxes > .right_box > .feedBox >.feed > h3{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.middle_panel > .lower_boxes > .right_box > .feedBox >.feed > p{
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    font-size: 1.2em;
+    color: #000000;
+}
+
+.feed:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(12, 12, 12, 0.2);
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1)
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 400px;
+  }
+  
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 18px;
+    
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

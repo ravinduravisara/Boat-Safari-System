@@ -1,0 +1,82 @@
+html, body{
+
+    background-image: url(https://media.istockphoto.com/id/518356812/photo/tropical-sea-and-rocks.jpg?s=612x612&w=0&k=20&c=bRAfkVsQ-d5wQjYiRWupDBThGr1Zn7aEP98VWFaxBy8=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    position: relative;
+    height: 100%;
+    background-color: #cac5c5;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow:scroll;
+}
+
+.wrap{
+    /* background-color: rgb(164, 224, 52); */
+    position: relative;
+    top: 20%;
+}
+h1{
+    color: aqua;
+}
+
+#Pic1
+{
+    width: 600px;
+    height:400px;
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#Pic2
+{
+    width: 600px;
+    height:400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: 25px;
+    
+}
+#Pic3
+{
+    width: 600px;
+    height:400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#Pic4
+{
+    width: 600px;
+    height:400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: 25px;
+   
+}
+#Pic5
+{
+    width: 600px;
+    height:400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#Pic6
+{
+    width: 600px;
+    height:400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
